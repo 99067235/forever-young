@@ -7,10 +7,12 @@ robotArm.speed = 3
 
 for i in range(7):
     robotArm.moveRight()
-for i in range(1):
+for i in range(8):
     robotArm.grab()
     robotArm.moveRight()
     robotArm.drop()
+    robotArm.moveLeft()
+    robotArm.moveLeft()
 
 
 
